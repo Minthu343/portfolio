@@ -1,0 +1,128 @@
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+.main{
+    margin: 0px;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.heading{
+   width: 200px;
+   padding: 5px;
+   text-align: center;
+   color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: oblique;
+   font-weight: bolder;
+   
+}
+span{
+    color: rgb(255, 0, 0);
+}
+.nav-bar{
+    width: 800px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 380px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+}
+nav li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(236, 230, 230);
+}
+nav li a:hover {
+    color: rgba(48, 10, 219, 0.767);
+}
+.bio{
+    color: azure;
+    
+}
+.intro{
+    margin:10px;
+    min-width: none;
+    min-height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    
+}
+
+.btn a{
+    color: #000;
+}
+
+.bar {
+    margin-top: 0;
+    border-block: 2px solid red;
+  }
+
+
+.footer{
+    width: auto;
+    height: 50px;
+    background-color: rgb(98, 112, 74);
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: blanchedalmond;
+    opacity: 0.5;
+}
+
+.txt{
+    color: rgb(255, 0, 0);
+    }
+.nav-bar{
+        width: 800px;
+        height: 20px;
+        background-color: rgba(221, 7, 7, 0.15);
+        padding: 10px;
+        margin-left: 380px;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+.second-container{
+    width: 100%;
+    height: 100px;
+
+}
+/*--------------about------------*/
+
+.txt{
+    color: rgb(255, 0, 0);
+    }
+    
+    a{
+        color: rgb(236, 8, 8);
+        text-decoration: none;
+    }
+    .experience{
+        display: grid;
+        grid-template-columns: repeat(4,220px);
+        margin-bottom: 20px;
+        gap: 30px;
+        justify-content: center;
+    }
+    .items{
+        border: 2px solid #212529;
+        border-radius: 5px;
+        
+    }
+
+
+

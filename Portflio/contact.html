@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio.service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+        .main{
+            background-image: url(image/backgroundimage2.jpg);
+            background-size: cover;
+            height: 120vh;
+        }
+        .heading{
+            width: 200px;
+            padding: 5px;
+            text-align: center;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: oblique;
+            font-weight: bolder;
+   
+            }
+            a{
+                color: rgb(236, 8, 8);
+                text-decoration: none;
+            }
+            h2{
+                text-align: center;
+            }
+            .place{
+                width: 40%;
+                height: fit-content;
+                margin-left: 400px;
+            }
+            .fill{
+                border-top:0;
+                border-left:0;
+                border-right:0;
+                padding: 10px;
+                width: 300px;
+                outline: none;
+                border-color: blue;
+            }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h2>Port<span class="txt">folio</span></h2>
+        </div>
+        <div class="navbar justify-content-center ">
+            <nav class="nav nav-item " >
+                <li class="nav nav-link"><a href="index.html" >Home</a></li>
+                <li class="nav nav-link"><a href="about.html" >About</a></li>
+                <li class="nav nav-link"><a href="service.html" >Service</a></li>
+                <li class="nav nav-link"><a href="contact.html" >Contact</a></li>
+            </nav>
+        </div>
+        <div class="container-fluid m-2 ">
+            <form action="" method="POST" class="place" >
+                <legend>
+                    <div class="container w-100 mt-5" >
+                        <div class="container-fluid">
+                            <h2 class="h3 text-center text-primary">Please Fill Your Information</h2>
+                        </div>
+                        <div class="form-control row-col-md-4 align-items-center border-primary d-grid" style="border-radius: 10px;">
+                            <div class="input-group align-items-center" style="margin-left: 100px;">
+                                <label for=""><i for="" class="fas fa-user"></i></label><br>
+                                <input type="text" class="fill" placeholder="What is your Name ?">
+                            </div><br>
+                            <div class="input-group align-items-center text-center" style="margin-left: 100px;">
+                                <label for=""><i for="" class="fas fa-mail-bulk"></i></label>
+                                <input type="password" class="fill" placeholder="What is your Email ?">
+                            </div><br>
+                            <div class="input-group align-items-center text-center" style="margin-left: 100px;">
+                                <label for=""><i for="" class="fas fa-phone"></i></label>
+                                <input type="text" class="fill" placeholder="What is your Phone Number ?">
+                            </div><br>
+                            <div class="form-group text-center">
+                                <input type="submit" class="btn btn-primary" value="Submit">
+                            </div><br><hr>
+                            <div class="form-group col-12 col-xs-4 text-center align-items-center" >
+                                <div><a href="https://www.google.com/account/about/"><img src="image/btn_google_signin_light_pressed_web.png" /></a></div>
+                                <div><a href="https://www.facebook.com/"><img src="image/btn_facebook_signin_light_pressed_web.jpg"></a></div>
+                                <div><a href="https://www.linkedin.com/login"><img src="image/btn_linkIn_signin_light_pressed_web.png"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </legend>
+            </form>
+        </div>
+    </div>
+    <div class="border-top text-muted text-center">&copy; Copyright 2023 &trade;</div>
+    <script src="main.js"></script>
+</body>
+</html>

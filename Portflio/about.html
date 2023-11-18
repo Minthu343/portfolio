@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Portfolio.About</title>
+    <style>
+        .heading{
+            width: 200px;
+            padding: 5px;
+            text-align: center;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: oblique;
+            font-weight: bolder;
+   
+            }
+        .txt{
+            color: rgb(255, 0, 0);
+            }
+            
+            a{
+                color: rgb(236, 8, 8);
+                text-decoration: none;
+            }
+            .pg-text{
+                margin-bottom: 0px;
+            }
+            .grid_container{
+            width: 70%;
+            height: 0 auto;
+            margin-left: 180px;
+            padding: 2%;
+            display: grid;
+            grid-template-columns:repeat(3, 1fr);
+            gap: 1rem;
+        }
+        .items{
+            border: 1px solid #3c4321;
+            border-radius: 15px;
+            color: bisque;
+        }
+         .one{
+            background-color: rgb(49, 49, 50);
+            padding: 1rem;
+            
+
+
+        }
+        .two{
+            background-color: rgb(49, 49, 50);
+            padding: 1rem;
+
+        }
+        .three{
+            background-color: rgb(49, 49, 50);
+            padding: 1rem;
+        }
+        img{
+            width: 50%;
+            height: auto;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        button,btn{
+            background-color: rgba(255, 187, 0, 0.596);
+            color: antiquewhite;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body style="background-image: url(image/backgroundimage3.jpg); background-repeat: no-repeat;background-size: cover;">
+    <div class="heading">
+        <h2>Port<span class="txt">folio</span></h2>
+        
+    </div>
+    <div class="navbar justify-content-center ">
+        <nav class="nav nav-item " >
+            <li class="nav nav-link"><a href="index.html" >Home</a></li>
+            <li class="nav nav-link"><a href="about.html" >About</a></li>
+            <li class="nav nav-link"><a href="service.html" >Service</a></li>
+            <li class="nav nav-link"><a href="contact.html" >Contact</a></li>
+        </nav>
+    </div>
+    <main class=" py-5">
+        <div class="bg-warning p-2 container my-2"></div>
+        <div class="container">
+            <div class="bg-light" style="height: 300px">
+                <p> <i>Loream Ipsum</i> <br>
+                    In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                </p>
+            </div>
+        </div>
+    </main>
+        <div class="container col-12">
+            <h3 class="text-warning">Skill Chart:</h3>
+            <div class="container p-4 col-xs-4" style=" display: flex; justify-content: center; background-color: #8c8f81;">
+                <section class="card w-50">
+                    <div class="card body ">
+                        <label for="">HTML</label>
+                        <div class="progress">
+                            <div class="progress-bar rounded-3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%; background-color: red;">
+                            <span class="sr-only">80% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card body">
+                        <label for="">CSS</label>
+                        <div class="progress">
+                            <div class="progress-bar rounded-3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%; background-color: blue;">
+                            <span class="sr-only">70% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card body">
+                        <label for="">JS</label>
+                        <div class="progress">
+                            <div class="progress-bar rounded-3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%; background-color: yellow;">
+                            <span class="sr-only">40% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card body">
+                        <label for="">Laravel</label>
+                        <div class="progress">
+                            <div class="progress-bar rounded-3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%; background-color: brown;">
+                            <span class="sr-only">30% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card body">
+                        <label for="">Php</label>
+                        <div class="progress">
+                            <div class="progress-bar rounded-3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%; background-color: blueviolet;">
+                            <span class="sr-only">50% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card body mb-3">
+                        <label for="">MySQl</label>
+                        <div class="progress">
+                            <div class="progress-bar rounded-3" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%; background-color: orangered;">
+                            <span class="sr-only">40% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                </section> 
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="text-warning">Working Experience:</h3>
+        </div>
+        <div class="grid_container">
+            <div class="items one">
+                <h3>Samsung</h3>
+                <img src="image/samsung_logo.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate minus quam iure aut, ab ipsa fuga nostrum natus quis vitae magnam similique excepturi, quisquam eveniet nulla amet qui ad esse.</p>
+                <button><a href="#" id="">Read More...</a></button>
+            </div>
+            <div class="items two">
+                <h3>uab Bank</h3>
+                <img src="image/uab_logo.jpg" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt doloremque fuga ex itaque ipsa quo cumque, sint culpa exercitationem unde impedit voluptatibus expedita est sapiente facere dolore delectus. Quos, suscipit?
+                </p>
+                <button><a href="#" id="">Read More...</a></button>
+            </div>
+            <div class="items three">
+                <h3>Yoma Bank</h3>
+                <img src="image/yomabank_logo.png" alt="">
+                <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor minus, ipsam veritatis pariatur accusantium beatae enim, magni, porro ea nostrum expedita rem quasi exercitationem temporibus facere eius reprehenderit atque ipsum!
+                </p>
+                <button><a href="#" id="">Read More...</a></button>
+            </div>
+        <br>
+        
+            <div class="border-top text-muted text-center">&copy; Copyright 2023 &trade;</div>
+</body>
+</html>

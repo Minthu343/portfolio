@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+            .main{
+            background-image: url(image/backgroundimage.jpg);
+            }
+        
+        
+            
+            .txt{
+            color: rgb(255, 0, 0);
+            }
+            
+            a{
+                color: rgb(236, 8, 8);
+                text-decoration: none;
+            }
+            .page-link{
+                margin: 100px;
+                color: azure;
+                background-color: rgba(236, 220, 220, 0.016);
+                border: none;
+                border-radius: 15px;
+            }
+            .page-link:hover{
+                background-color: rgba(236, 220, 220, 0.016);
+
+            }
+            #backdrop{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: black;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+            display: none;
+
+        }
+        #dialog{
+            position: absolute;
+            top: 15%;
+            left: 30%;
+            width: 50%;
+            height: 450px;
+            background-color: white;
+            border: 4px solid rgb(236, 8, 8);
+            display: none;
+            align-items: center;
+
+        }
+        #dialog h2{
+            font-size: 18px;
+            margin: 0;
+            padding: 18px 30px;
+            background-color: rgb(12, 12, 12);
+            color: white;
+        }
+        #dialog h2 span{
+            float: right;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h2>Port<span class="txt">folio</span></h2>
+            
+        </div>
+        <div class="navbar justify-content-center ">
+            <nav class="nav nav-item " >
+                <li class="nav nav-link"><a href="index.html" >Home</a></li>
+                <li class="nav nav-link"><a href="about.html" >About</a></li>
+                <li class="nav nav-link"><a href="service.html" >Service</a></li>
+                <li class="nav nav-link"><a href="contact.html" >Contact</a></li>
+            </nav>
+        </div>
+        <div class="container col-lg-12">
+            <div class="row">
+                <div class="container col-md-4 page-link me-5">
+                    <h1 class="page-item">Hello,</h1><br>
+                    <h2 class="page-item">It's Me.</h2>
+                    <p class="page-item"> 
+                        My name is <i>Min Thu</i> . I'm try to learn Programming Language.
+                        This is My Portfolio.I think that not a pretty good.
+                        But it is working  my new goal and new career for constructive.
+                        
+                    </p>
+                    <button class="btn btn-danger">You Can Hire Me !</button>
+                </div>
+                <div id="backdrop"></div>
+                <div id="dialog">
+                    <h2>Please Fill Up Information
+                        <span>&times;</span>
+                    </h2>
+                    <div>
+                        <table class="table  table-dark">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Name</th>
+                                <th scope="row"><input type="text"> </th>
+                              </tr>
+                              <tr>
+                                <th scope="row">Email</th>
+                                <th scope="row"><input type="text"> </th>
+                              </tr>
+                              <tr>
+                                <th scope="row">Phone No.</th>
+                                <th scope="row"><input type="text"> </th>
+                              </tr>
+                              <tr class="col-2">
+                                <th ><input type="submit"> Sure</th>
+                                <th ><input type="submit"> cancle</th>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div> 
+    
+            <div class="footer"> &copy; XXX_XXX_XXX</div>
+    <script src="main.js">
+               
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio.Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            background-image: url(image/backgroundimage4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .heading{
+            width: 200px;
+            padding: 5px;
+            text-align: center;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: oblique;
+            font-weight: bolder;
+   
+            }
+        .txt{
+            color: rgb(255, 0, 0);
+            }
+            
+            a{
+                color: rgb(255, 0, 0);
+                text-decoration: none;
+            }
+            .grid_container{
+            width: 90%;
+            height: 0 auto;
+            margin: 50px;
+            padding: 2%;
+            display: grid;
+            grid-template-columns:repeat(4, 1fr);
+            gap: 1rem;
+        }
+        .items{
+            border: 1px solid #3c4321;
+            border-radius: 15px;
+            box-shadow: 2px 5px 5px 2px;
+        }
+         .one{
+            background-color: rgb(98, 0, 255);
+            padding: 1rem;
+            
+
+
+        }
+        .two{
+            background-color: rgb(255, 0, 64);
+            padding: 1rem;
+
+        }
+        .three{
+            background-color: rgb(9, 255, 0);
+            padding: 1rem;
+
+        }
+        .four{
+            background-color: rgb(251, 255, 0);
+            padding: 1rem;
+            grid-row: span 2;
+
+        }
+        .five{
+            background-color: rgb(255, 38, 0);
+            padding: 1rem;
+
+        }
+        .six{
+            background-color: rgb(4, 0, 255);
+            padding: 1rem;
+            grid-column: span 2;
+
+        }
+        img{
+            width: 50%;
+            height: auto;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        button,btn{
+            background-color: rgb(4, 0, 255);
+            color: antiquewhite;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h2>Port<span class="txt">folio</span></h2>
+            
+        </div>
+        <div class="navbar justify-content-center ">
+            <nav class="nav nav-item " >
+                <li class="nav nav-link"><a href="index.html" >Home</a></li>
+                <li class="nav nav-link"><a href="about.html" >About</a></li>
+                <li class="nav nav-link"><a href="service.html" >Service</a></li>
+                <li class="nav nav-link"><a href="contact.html" >Contact</a></li>
+            </nav>
+        </div>
+        <div class="grid_container">
+            <div class="items one">
+                <h3>Project 01</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate minus quam iure aut, ab ipsa fuga nostrum natus quis vitae magnam similique excepturi, quisquam eveniet nulla amet qui ad esse.</p>
+            </div>
+            <div class="items two">
+                <h3>Project 02</h3>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt doloremque fuga ex itaque ipsa quo cumque, sint culpa exercitationem unde impedit voluptatibus expedita est sapiente facere dolore delectus. Quos, suscipit?
+            </div>
+            <div class="items three">
+                <h3>Project 03</h3>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor minus, ipsam veritatis pariatur accusantium beatae enim, magni, porro ea nostrum expedita rem quasi exercitationem temporibus facere eius reprehenderit atque ipsum!
+            </div>
+            <div class="items four">
+                <h3>Project 04</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis enim recusandae rem totam? Dolore minima a possimus, illum nobis ullam exercitationem facilis? Cum voluptate exercitationem nostrum ratione recusandae incidunt dolores!
+            </div>
+            <div class="items five">
+                <h3>Project 05</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, rerum aliquid soluta iusto numquam dolore dolores vel, quaerat at iste quos maiores, commodi ab quasi! Exercitationem velit voluptatibus praesentium ducimus.
+            </div>
+            <div class="items six">
+                <h3>Project 06</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </div>
+        </div>
+        
+        <div class="border-top text-muted text-center">&copy; Copyright 2023 &trade;</div>
+    <script src="main.js">
+        
+    </script>
+</body>
+</html>
